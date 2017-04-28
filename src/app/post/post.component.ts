@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./post.component.scss']
 })
 export class PostComponent implements OnInit, OnChanges {
-  posts: Posts[];
+  posts: any;
   @Input() listId: string;
   @Input() editId: string;
   id: string;
