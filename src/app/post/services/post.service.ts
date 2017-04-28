@@ -13,7 +13,7 @@ export class PostService {
   // Resolve HTTP using the constructor
   constructor (private http: Http) {}
   // private instance variable to hold base url
-  private postsUrl = 'http://localhost:4070/api/posts';
+  private postsUrl = 'http://alwandy.me:4070/api/posts';
 
   // Fetch all existing posts
   getPost(id) : Observable<Posts[]> {
